@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html ng-app="stockApp"> 
+<head>
+<title>AngularJS Stock Chart SPA</title>
+        
+<meta charset="UTF-8">
+    
+<!-- load jquery & highcharts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+<!-- load bootstrap & CSS -->
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- load angular -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-resource.js"></script>
+<!-- load angular components -->
+<script src="app.js"></script>
+<script src="controllers.js"></script>
+<script src="routes.js"></script>
+<script src="services.js"></script>
+<script src="directives.js"></script>
+
+
+</head>
+    
+<header></header>
+    
+<body id="body" class="col-md-6 col-md-offset-3">
+    
+<div ng-view></div>
+
+</body>
+</html> 
